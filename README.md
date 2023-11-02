@@ -34,4 +34,13 @@ services:
 <h3 id="PostgreSQL">PostgreSQL</h3>
 <ul>
   <li>Using Postgres Effectively in Spring Boot Applications: <a href=https://hackernoon.com/using-postgres-effectively-in-spring-boot-applications>Here.</li>
+  <li>Spring Boot, JPA/Hibernate, PostgreSQL CRUD example: <a href="https://www.bezkoder.com/spring-boot-postgresql-example/">Here.</a></li>
 </ul>
+
+```
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/db_name
+spring.datasource.username=username
+spring.datasource.password=password
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+```
