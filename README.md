@@ -33,8 +33,9 @@ services:
 
 <h3 id="PostgreSQL">PostgreSQL</h3>
 <ul>
-  <li>Using Postgres Effectively in Spring Boot Applications: <a href=https://hackernoon.com/using-postgres-effectively-in-spring-boot-applications>Here.</li>
-  <li>Spring Boot, JPA/Hibernate, PostgreSQL CRUD example: <a href="https://www.bezkoder.com/spring-boot-postgresql-example/">Here.</a></li>
+    <li>Using Postgres Effectively in Spring Boot Applications: <a href=https://hackernoon.com/using-postgres-effectively-in-spring-boot-applications>Here.</li>
+    <li>Spring Boot, JPA/Hibernate, PostgreSQL CRUD example: <a href="https://www.bezkoder.com/spring-boot-postgresql-example/">Here.</a></li>
+    <li>Конфигурационные параметры Hibernate: <a href="https://javarush.com/quests/lectures/questhibernate.level09.lecture04">Here.</a></li>
 </ul>
 
 ```
@@ -43,4 +44,5 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/db_name
 spring.datasource.username=username
 spring.datasource.password=password
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
 ```
