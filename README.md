@@ -46,3 +46,7 @@ spring.datasource.password=password
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=update
 ```
+
+> note that the manual loading of the driver class is unnecessary because it's automatically registered, so don't bother yourself with it
+>
+> Source: [Here.](https://stackoverflow.com/questions/26881739/unable-to-get-spring-boot-to-automatically-create-database-schema)
