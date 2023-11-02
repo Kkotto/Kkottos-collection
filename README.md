@@ -18,6 +18,19 @@
 >
 > Source: [Here](https://spring.io/guides/topicals/spring-boot-docker/)
 
+compose.yaml
+```
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=DB_NAME'
+      - 'POSTGRES_PASSWORD=PASSWORD'
+      - 'POSTGRES_USER=USER'
+    ports:
+      - '5432'
+```
+
 <h3 id="PostgreSQL">PostgreSQL</h3>
 <ul>
   <li>Using Postgres Effectively in Spring Boot Applications: <a href=https://hackernoon.com/using-postgres-effectively-in-spring-boot-applications>Here.</li>
